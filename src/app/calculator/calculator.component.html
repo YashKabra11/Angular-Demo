@@ -1,0 +1,23 @@
+<div class="calculator">
+    <input type="text" [value]="display" disabled>
+    <div class="buttons">
+      <button (click)="clear()">C</button>
+      <button (click)="appendInput('1')">1</button>
+      <button (click)="appendInput('2')">2</button>
+      <button (click)="appendInput('3')">3</button>
+      <button (click)="appendInput('+')">+</button>
+      <button (click)="appendInput('4')">4</button>
+      <button (click)="appendInput('5')">5</button>
+      <button (click)="appendInput('6')">6</button>
+      <button (click)="appendInput('-')">-</button>
+      <button (click)="appendInput('7')">7</button>
+      <button (click)="appendInput('8')">8</button>
+      <button (click)="appendInput('9')">9</button>
+      <button (click)="appendInput('*')">*</button>
+      <button (click)="appendInput('0')">0</button>
+      <button (click)="appendInput('.')">.</button>
+      <button (click)="calculate()">=</button>
+      <button (click)="appendInput('/')">/</button>
+    </div>
+  </div>
+  
